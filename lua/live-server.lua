@@ -67,7 +67,7 @@ M.start = function()
 
             if exit_code == 0 then return end
 
-            log(string.format("stopped with code %s", exit_code), "INFO")
+            log("live-server stopped", "INFO")
         end,
     })
 
